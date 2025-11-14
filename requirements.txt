@@ -1,0 +1,4 @@
+torch>=2.1
+transformers>=4.39
+sentence-transformers>=2.7
+Pillow>=10.2
