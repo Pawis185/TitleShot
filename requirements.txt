@@ -1,4 +1,34 @@
-torch>=2.1
-transformers>=4.39
-sentence-transformers>=2.7
-Pillow>=10.2
+# Core dependencies
+torch>=2.1.0
+transformers>=4.37.0
+sentence-transformers>=2.7.0
+Pillow>=10.2.0
+
+# Acceleration and optimization
+accelerate>=0.26.0
+bitsandbytes>=0.41.0  # For 8-bit quantization (optional, saves VRAM)
+
+# Data processing
+numpy>=1.24.0
+
+# Model-specific dependencies
+# Uncomment based on which models you're using:
+
+# For Qwen2-VL
+# qwen-vl-utils>=0.0.1
+
+# For InternVL2
+# timm>=0.9.0
+# einops>=0.7.0
+
+# For better performance
+# flash-attn>=2.3.0  # Requires CUDA, significantly speeds up attention
+
+# Development and testing (optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
+# mypy>=1.5.0
+
+# Utilities
+tqdm>=4.66.0  # Progress bars for batch processing
