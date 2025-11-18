@@ -253,6 +253,21 @@ for model, metrics in benchmark_results.items():
     print(f"  Completeness: {metrics['attribute_completeness']:.1f}%")
 ```
 
+### 方式2：调用 Hugging Face Inference API 评测
+
+如果本地算力不足，可以直接通过 Hugging Face Inference API 对 ``dataset.json`` 中的图片做抽样评测：
+
+```bash
+export HF_API_TOKEN=hf_xxx  # 可选，但建议设置避免限流
+python huggingface_eval.py \
+  --dataset dataset.json \
+  --models qwen2-vl-7b internvl2-8b llava-1.5-7b \
+  --output hf_eval_results.json \
+  --max-samples 20  # 可选，限制样本数进行快速对比
+```
+
+输出文件会给出每个模型的解析成功率、类别匹配率、耗时和原始返回内容，便于后续对比分析。
+
 ---
 
 ## 模型对比

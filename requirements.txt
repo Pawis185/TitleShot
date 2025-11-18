@@ -10,6 +10,7 @@ bitsandbytes>=0.41.0  # For 8-bit quantization (optional, saves VRAM)
 
 # Data processing
 numpy>=1.24.0
+huggingface_hub>=0.24.0
 
 # Model-specific dependencies
 # Uncomment based on which models you're using:
