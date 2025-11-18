@@ -253,6 +253,20 @@ for model, metrics in benchmark_results.items():
     print(f"  Completeness: {metrics['attribute_completeness']:.1f}%")
 ```
 
+### 使用 dataset.json 直接跑基准测试
+
+仓库内的 `dataset.json` 包含不同品类的商品图片链接，可以直接下载并用于 `benchmark_models`：
+
+```bash
+python -m perception_layer.cli \
+  --benchmark \
+  --dataset-json dataset.json \
+  --models qwen2-vl-7b florence2-large blip2-opt-2.7b \
+  --limit-per-category 2
+```
+
+命令会将图片缓存到 `.cache/dataset_images/`，然后对指定模型运行 `benchmark_models`。
+
 ---
 
 ## 模型对比
