@@ -10,9 +10,12 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 from typing import List, Optional
+
+import requests
 
 from .model import (
     ModelType,
@@ -134,6 +137,27 @@ Examples:
         help="Run benchmark on a directory of images",
     )
 
+    parser.add_argument(
+        "--dataset-json",
+        type=Path,
+        default=None,
+        help="Path to dataset.json containing image URLs for benchmarking",
+    )
+
+    parser.add_argument(
+        "--limit-per-category",
+        type=int,
+        default=3,
+        help="Number of images to download per category when using --dataset-json",
+    )
+
+    parser.add_argument(
+        "--download-dir",
+        type=Path,
+        default=Path(".cache/dataset_images"),
+        help="Directory to cache downloaded dataset images",
+    )
+
     # Utilities
     parser.add_argument(
         "--recommend",
@@ -198,6 +222,56 @@ def format_output(result_dict: dict, format_type: str) -> str:
 
     else:  # pretty
         return json.dumps(result_dict, indent=2, ensure_ascii=False)
+
+
+def download_images_from_dataset(
+    dataset_path: Path,
+    download_dir: Path,
+    limit_per_category: int = 3,
+) -> List[Path]:
+    """Download images listed in a dataset JSON file.
+
+    Args:
+        dataset_path: Path to dataset.json
+        download_dir: Directory where downloaded images will be cached
+        limit_per_category: How many images to pull per category
+
+    Returns:
+        List of local image paths that were downloaded or already cached
+    """
+
+    if not dataset_path.exists():
+        raise FileNotFoundError(f"Dataset file not found: {dataset_path}")
+
+    data = json.loads(dataset_path.read_text(encoding="utf-8"))
+    download_dir.mkdir(parents=True, exist_ok=True)
+
+    image_paths: List[Path] = []
+
+    for category, items in data.items():
+        safe_category = re.sub(r"[^a-zA-Z0-9_-]+", "_", category)
+        for idx, item in enumerate(items[:limit_per_category], start=1):
+            url = item.get("image_url")
+            if not url:
+                continue
+
+            ext = Path(url).suffix or ".jpg"
+            filename = f"{safe_category}_{idx}{ext}"
+            target_path = download_dir / filename
+
+            if not target_path.exists():
+                try:
+                    response = requests.get(url, timeout=15)
+                    response.raise_for_status()
+                    target_path.write_bytes(response.content)
+                    print(f"⬇️  Downloaded {url} → {target_path}")
+                except Exception as exc:  # noqa: BLE001
+                    print(f"⚠️  Skipping {url}: {exc}")
+                    continue
+
+            image_paths.append(target_path)
+
+    return image_paths
 
 
 def handle_single_extraction(args: argparse.Namespace) -> None:
@@ -336,28 +410,33 @@ def handle_model_comparison(args: argparse.Namespace) -> None:
 
 def handle_benchmark(args: argparse.Namespace) -> None:
     """Handle benchmarking."""
-    if not args.image:
-        print("❌ Error: Directory path required for benchmark", file=sys.stderr)
-        sys.exit(1)
-
     if not args.models:
         print("❌ Error: --models required for benchmark", file=sys.stderr)
         sys.exit(1)
 
-    input_dir = Path(args.image)
-    if not input_dir.is_dir():
-        print(f"❌ Error: Not a directory: {input_dir}", file=sys.stderr)
-        sys.exit(1)
+    image_paths: List[Path] = []
 
-    # Find images
-    image_extensions = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
-    image_paths = [
-        p for p in input_dir.iterdir()
-        if p.suffix.lower() in image_extensions
-    ]
+    if args.dataset_json:
+        image_paths = download_images_from_dataset(
+            args.dataset_json,
+            args.download_dir,
+            limit_per_category=args.limit_per_category,
+        )
+    elif args.image:
+        input_dir = Path(args.image)
+        if not input_dir.is_dir():
+            print(f"❌ Error: Not a directory: {input_dir}", file=sys.stderr)
+            sys.exit(1)
+
+        # Find images
+        image_extensions = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
+        image_paths = [
+            p for p in input_dir.iterdir()
+            if p.suffix.lower() in image_extensions
+        ]
 
     if not image_paths:
-        print(f"❌ Error: No images found in {input_dir}", file=sys.stderr)
+        print("❌ Error: No images available for benchmarking", file=sys.stderr)
         sys.exit(1)
 
     model_types = [ModelType(m) for m in args.models]
