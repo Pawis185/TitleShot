@@ -1,0 +1,5450 @@
+{
+  "qwen3_vl_32b": {
+    "model_name": "Qwen3-VL-32B-Instruct",
+    "summary": {
+      "total_samples": 120,
+      "successful_samples": 120,
+      "success_rate": 1.0,
+      "avg_category_accuracy": 0.5400000000000001,
+      "avg_attribute_completeness": 1.0,
+      "avg_selling_points_quality": 0.9919999999999999,
+      "avg_format_validity": 1.0,
+      "avg_latency": 5.95851237376531,
+      "overall_score": 0.86
+    },
+    "detailed_results": [
+      {
+        "sample_id": 1,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.9190354347229,
+        "error": ""
+      },
+      {
+        "sample_id": 2,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 6.959839582443237,
+        "error": ""
+      },
+      {
+        "sample_id": 3,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 6.072737693786621,
+        "error": ""
+      },
+      {
+        "sample_id": 4,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.112432241439819,
+        "error": ""
+      },
+      {
+        "sample_id": 5,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.96
+        },
+        "latency": 5.585184097290039,
+        "error": ""
+      },
+      {
+        "sample_id": 6,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.630926847457886,
+        "error": ""
+      },
+      {
+        "sample_id": 7,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.478883981704712,
+        "error": ""
+      },
+      {
+        "sample_id": 8,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.916835069656372,
+        "error": ""
+      },
+      {
+        "sample_id": 9,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.392664670944214,
+        "error": ""
+      },
+      {
+        "sample_id": 10,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.0833845138549805,
+        "error": ""
+      },
+      {
+        "sample_id": 11,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.318812847137451,
+        "error": ""
+      },
+      {
+        "sample_id": 12,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 6.742407560348511,
+        "error": ""
+      },
+      {
+        "sample_id": 13,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Apparel & Accessories",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 6.536803722381592,
+        "error": ""
+      },
+      {
+        "sample_id": 14,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.964634418487549,
+        "error": ""
+      },
+      {
+        "sample_id": 15,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 7.007248163223267,
+        "error": ""
+      },
+      {
+        "sample_id": 16,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.929953098297119,
+        "error": ""
+      },
+      {
+        "sample_id": 17,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.624381065368652,
+        "error": ""
+      },
+      {
+        "sample_id": 18,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 6.7550671100616455,
+        "error": ""
+      },
+      {
+        "sample_id": 19,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.670933246612549,
+        "error": ""
+      },
+      {
+        "sample_id": 20,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.626866817474365,
+        "error": ""
+      },
+      {
+        "sample_id": 21,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Education",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.530270099639893,
+        "error": ""
+      },
+      {
+        "sample_id": 22,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Books",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 7.357898712158203,
+        "error": ""
+      },
+      {
+        "sample_id": 23,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Books",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.747124671936035,
+        "error": ""
+      },
+      {
+        "sample_id": 24,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Books",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 6.1315531730651855,
+        "error": ""
+      },
+      {
+        "sample_id": 25,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Books",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.725001096725464,
+        "error": ""
+      },
+      {
+        "sample_id": 26,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Books",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.628021240234375,
+        "error": ""
+      },
+      {
+        "sample_id": 27,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.997870922088623,
+        "error": ""
+      },
+      {
+        "sample_id": 28,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Books",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.836517095565796,
+        "error": ""
+      },
+      {
+        "sample_id": 29,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Books",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.43747878074646,
+        "error": ""
+      },
+      {
+        "sample_id": 30,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Books",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 6.333372354507446,
+        "error": ""
+      },
+      {
+        "sample_id": 31,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Clothing",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 5.635343313217163,
+        "error": ""
+      },
+      {
+        "sample_id": 32,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Jewelry",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 5.321366310119629,
+        "error": ""
+      },
+      {
+        "sample_id": 33,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Clothing",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 4.5652015209198,
+        "error": ""
+      },
+      {
+        "sample_id": 34,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Footwear",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.774084091186523,
+        "error": ""
+      },
+      {
+        "sample_id": 35,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Clothing",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 7.126390695571899,
+        "error": ""
+      },
+      {
+        "sample_id": 36,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Clothing",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 6.606107234954834,
+        "error": ""
+      },
+      {
+        "sample_id": 37,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Clothing",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 6.408751010894775,
+        "error": ""
+      },
+      {
+        "sample_id": 38,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Fashion Accessories",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.5009143352508545,
+        "error": ""
+      },
+      {
+        "sample_id": 39,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Clothing",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 5.3841822147369385,
+        "error": ""
+      },
+      {
+        "sample_id": 40,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Clothing",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 5.829058885574341,
+        "error": ""
+      },
+      {
+        "sample_id": 41,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Sports & Outdoors",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 7.7993974685668945,
+        "error": ""
+      },
+      {
+        "sample_id": 42,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Pet Supplies",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.839815139770508,
+        "error": ""
+      },
+      {
+        "sample_id": 43,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 5.843770742416382,
+        "error": ""
+      },
+      {
+        "sample_id": 44,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Sports & Outdoors",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 6.318812608718872,
+        "error": ""
+      },
+      {
+        "sample_id": 45,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Fitness & Exercise",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 6.692336559295654,
+        "error": ""
+      },
+      {
+        "sample_id": 46,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Collectibles",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 7.209880828857422,
+        "error": ""
+      },
+      {
+        "sample_id": 47,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Sports & Outdoors",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.837502956390381,
+        "error": ""
+      },
+      {
+        "sample_id": 48,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Clothing",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.572198390960693,
+        "error": ""
+      },
+      {
+        "sample_id": 49,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Outdoor & Survival Gear",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.99512243270874,
+        "error": ""
+      },
+      {
+        "sample_id": 50,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Sports & Outdoors",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.96
+        },
+        "latency": 4.493163585662842,
+        "error": ""
+      },
+      {
+        "sample_id": 51,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.993953704833984,
+        "error": ""
+      },
+      {
+        "sample_id": 52,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.952865839004517,
+        "error": ""
+      },
+      {
+        "sample_id": 53,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 6.680948972702026,
+        "error": ""
+      },
+      {
+        "sample_id": 54,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 6.440208435058594,
+        "error": ""
+      },
+      {
+        "sample_id": 55,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 6.797245502471924,
+        "error": ""
+      },
+      {
+        "sample_id": 56,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.825897216796875,
+        "error": ""
+      },
+      {
+        "sample_id": 57,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Books & Media",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 7.438397169113159,
+        "error": ""
+      },
+      {
+        "sample_id": 58,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 6.924519062042236,
+        "error": ""
+      },
+      {
+        "sample_id": 59,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 6.956482410430908,
+        "error": ""
+      },
+      {
+        "sample_id": 60,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.412731885910034,
+        "error": ""
+      },
+      {
+        "sample_id": 61,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.660592317581177,
+        "error": ""
+      },
+      {
+        "sample_id": 62,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 9.438540697097778,
+        "error": ""
+      },
+      {
+        "sample_id": 63,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Automotive & Powersports",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 6.268463850021362,
+        "error": ""
+      },
+      {
+        "sample_id": 64,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.275068283081055,
+        "error": ""
+      },
+      {
+        "sample_id": 65,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.967914581298828,
+        "error": ""
+      },
+      {
+        "sample_id": 66,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 6.004916667938232,
+        "error": ""
+      },
+      {
+        "sample_id": 67,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Sports & Outdoors",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 6.240589618682861,
+        "error": ""
+      },
+      {
+        "sample_id": 68,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.751044988632202,
+        "error": ""
+      },
+      {
+        "sample_id": 69,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.96
+        },
+        "latency": 5.744071960449219,
+        "error": ""
+      },
+      {
+        "sample_id": 70,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.749817609786987,
+        "error": ""
+      },
+      {
+        "sample_id": 71,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 6.354652166366577,
+        "error": ""
+      },
+      {
+        "sample_id": 72,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 5.747048616409302,
+        "error": ""
+      },
+      {
+        "sample_id": 73,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 5.623241424560547,
+        "error": ""
+      },
+      {
+        "sample_id": 74,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 6.019032955169678,
+        "error": ""
+      },
+      {
+        "sample_id": 75,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 6.332262754440308,
+        "error": ""
+      },
+      {
+        "sample_id": 76,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 6.054400205612183,
+        "error": ""
+      },
+      {
+        "sample_id": 77,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.4482808113098145,
+        "error": ""
+      },
+      {
+        "sample_id": 78,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 5.527358293533325,
+        "error": ""
+      },
+      {
+        "sample_id": 79,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 6.124871730804443,
+        "error": ""
+      },
+      {
+        "sample_id": 80,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Tools & Home Improvement",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 6.207402229309082,
+        "error": ""
+      },
+      {
+        "sample_id": 81,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Supplies",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 6.214385747909546,
+        "error": ""
+      },
+      {
+        "sample_id": 82,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Supplies",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 6.172203779220581,
+        "error": ""
+      },
+      {
+        "sample_id": 83,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Supplies",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.792917728424072,
+        "error": ""
+      },
+      {
+        "sample_id": 84,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Supplies",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.353042125701904,
+        "error": ""
+      },
+      {
+        "sample_id": 85,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 5.170425176620483,
+        "error": ""
+      },
+      {
+        "sample_id": 86,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Care",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 6.125804662704468,
+        "error": ""
+      },
+      {
+        "sample_id": 87,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Beauty & Personal Care",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 6.164772272109985,
+        "error": ""
+      },
+      {
+        "sample_id": 88,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Toys & Games",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 5.056588411331177,
+        "error": ""
+      },
+      {
+        "sample_id": 89,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Accessories",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 5.529587745666504,
+        "error": ""
+      },
+      {
+        "sample_id": 90,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Supplies",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.833363056182861,
+        "error": ""
+      },
+      {
+        "sample_id": 91,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Beauty & Personal Care",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 6.070665597915649,
+        "error": ""
+      },
+      {
+        "sample_id": 92,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Health & Wellness",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 6.523643255233765,
+        "error": ""
+      },
+      {
+        "sample_id": 93,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Eyewear",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.915636777877808,
+        "error": ""
+      },
+      {
+        "sample_id": 94,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 7.284225702285767,
+        "error": ""
+      },
+      {
+        "sample_id": 95,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Snacks & Beverages",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 6.351381540298462,
+        "error": ""
+      },
+      {
+        "sample_id": 96,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Beverages",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.256467342376709,
+        "error": ""
+      },
+      {
+        "sample_id": 97,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Beauty & Personal Care",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 5.96906304359436,
+        "error": ""
+      },
+      {
+        "sample_id": 98,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Personal Care",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 5.255411863327026,
+        "error": ""
+      },
+      {
+        "sample_id": 99,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Pet Supplies",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.324107646942139,
+        "error": ""
+      },
+      {
+        "sample_id": 100,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Health & Personal Care",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 6.988466262817383,
+        "error": ""
+      },
+      {
+        "sample_id": 101,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Toys & Games",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 6.16457462310791,
+        "error": ""
+      },
+      {
+        "sample_id": 102,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Automotive & Industrial",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 5.4091455936431885,
+        "error": ""
+      },
+      {
+        "sample_id": 103,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Toys & Games",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.301185607910156,
+        "error": ""
+      },
+      {
+        "sample_id": 104,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 6.5077223777771,
+        "error": ""
+      },
+      {
+        "sample_id": 105,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Toys & Games",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.945824861526489,
+        "error": ""
+      },
+      {
+        "sample_id": 106,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 5.210168838500977,
+        "error": ""
+      },
+      {
+        "sample_id": 107,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Toys & Games",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.994496822357178,
+        "error": ""
+      },
+      {
+        "sample_id": 108,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 6.243503093719482,
+        "error": ""
+      },
+      {
+        "sample_id": 109,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Toys & Games",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 6.032864332199097,
+        "error": ""
+      },
+      {
+        "sample_id": 110,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Toys & Games",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 6.295420169830322,
+        "error": ""
+      },
+      {
+        "sample_id": 111,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.372361898422241,
+        "error": ""
+      },
+      {
+        "sample_id": 112,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.121316432952881,
+        "error": ""
+      },
+      {
+        "sample_id": 113,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Toys & Games",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.510199546813965,
+        "error": ""
+      },
+      {
+        "sample_id": 114,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 6.6892476081848145,
+        "error": ""
+      },
+      {
+        "sample_id": 115,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 7.317223072052002,
+        "error": ""
+      },
+      {
+        "sample_id": 116,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 7.0068678855896,
+        "error": ""
+      },
+      {
+        "sample_id": 117,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.471191644668579,
+        "error": ""
+      },
+      {
+        "sample_id": 118,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 6.492132663726807,
+        "error": ""
+      },
+      {
+        "sample_id": 119,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 8.589873790740967,
+        "error": ""
+      },
+      {
+        "sample_id": 120,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.223641633987427,
+        "error": ""
+      }
+    ]
+  },
+  "internvl2_5_8b": {
+    "model_name": "InternVL2.5-8B",
+    "summary": {
+      "total_samples": 120,
+      "successful_samples": 120,
+      "success_rate": 1.0,
+      "avg_category_accuracy": 0.40166666666666667,
+      "avg_attribute_completeness": 1.0,
+      "avg_selling_points_quality": 0.9493333333333334,
+      "avg_format_validity": 0.9981481481481481,
+      "avg_latency": 4.265368433793386,
+      "overall_score": 0.8074629629629629
+    },
+    "detailed_results": [
+      {
+        "sample_id": 1,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.140156507492065,
+        "error": ""
+      },
+      {
+        "sample_id": 2,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.745380163192749,
+        "error": ""
+      },
+      {
+        "sample_id": 3,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.96
+        },
+        "latency": 3.159000873565674,
+        "error": ""
+      },
+      {
+        "sample_id": 4,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.001787424087524,
+        "error": ""
+      },
+      {
+        "sample_id": 5,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.047540664672852,
+        "error": ""
+      },
+      {
+        "sample_id": 6,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Home & Security",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.4100096225738525,
+        "error": ""
+      },
+      {
+        "sample_id": 7,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.9553773403167725,
+        "error": ""
+      },
+      {
+        "sample_id": 8,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.96
+        },
+        "latency": 3.8844025135040283,
+        "error": ""
+      },
+      {
+        "sample_id": 9,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.96
+        },
+        "latency": 3.8547332286834717,
+        "error": ""
+      },
+      {
+        "sample_id": 10,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 3.7861199378967285,
+        "error": ""
+      },
+      {
+        "sample_id": 11,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 3.812119245529175,
+        "error": ""
+      },
+      {
+        "sample_id": 12,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.182955980300903,
+        "error": ""
+      },
+      {
+        "sample_id": 13,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Accessories",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.618774175643921,
+        "error": ""
+      },
+      {
+        "sample_id": 14,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.514119863510132,
+        "error": ""
+      },
+      {
+        "sample_id": 15,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.304290294647217,
+        "error": ""
+      },
+      {
+        "sample_id": 16,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Beauty & Personal Care",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.593205451965332,
+        "error": ""
+      },
+      {
+        "sample_id": 17,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Furniture",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.424036026000977,
+        "error": ""
+      },
+      {
+        "sample_id": 18,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Art & Decor",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.78
+        },
+        "latency": 4.2224414348602295,
+        "error": ""
+      },
+      {
+        "sample_id": 19,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 3.3672871589660645,
+        "error": ""
+      },
+      {
+        "sample_id": 20,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Home & Garden",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 3.9486911296844482,
+        "error": ""
+      },
+      {
+        "sample_id": 21,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Education & Teaching",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.052695035934448,
+        "error": ""
+      },
+      {
+        "sample_id": 22,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Literature & Fiction",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.993753671646118,
+        "error": ""
+      },
+      {
+        "sample_id": 23,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Books",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 3.9704439640045166,
+        "error": ""
+      },
+      {
+        "sample_id": 24,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Literature & Fiction",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.199571371078491,
+        "error": ""
+      },
+      {
+        "sample_id": 25,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Children's Books",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 3.7033815383911133,
+        "error": ""
+      },
+      {
+        "sample_id": 26,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Books",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.96
+        },
+        "latency": 3.409167766571045,
+        "error": ""
+      },
+      {
+        "sample_id": 27,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Calendars",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.0519914627075195,
+        "error": ""
+      },
+      {
+        "sample_id": 28,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Books",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.96
+        },
+        "latency": 3.436445951461792,
+        "error": ""
+      },
+      {
+        "sample_id": 29,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Children's Books",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 4.030285358428955,
+        "error": ""
+      },
+      {
+        "sample_id": 30,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Religion & Spirituality",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.9786407947540283,
+        "error": ""
+      },
+      {
+        "sample_id": 31,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Footwear",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.063331127166748,
+        "error": ""
+      },
+      {
+        "sample_id": 32,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Jewelry",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.8699999999999999
+        },
+        "latency": 3.870055675506592,
+        "error": ""
+      },
+      {
+        "sample_id": 33,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Apparel",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.503726005554199,
+        "error": ""
+      },
+      {
+        "sample_id": 34,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Footwear",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.280046463012695,
+        "error": ""
+      },
+      {
+        "sample_id": 35,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Apparel",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.345898389816284,
+        "error": ""
+      },
+      {
+        "sample_id": 36,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Footwear",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.038094758987427,
+        "error": ""
+      },
+      {
+        "sample_id": 37,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Footwear",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.160224676132202,
+        "error": ""
+      },
+      {
+        "sample_id": 38,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Accessories",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.298022270202637,
+        "error": ""
+      },
+      {
+        "sample_id": 39,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Footwear",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.2670440673828125,
+        "error": ""
+      },
+      {
+        "sample_id": 40,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Clothing",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 3.9875364303588867,
+        "error": ""
+      },
+      {
+        "sample_id": 41,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Sports & Outdoors",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.611081838607788,
+        "error": ""
+      },
+      {
+        "sample_id": 42,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Tools & Hardware",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.295228481292725,
+        "error": ""
+      },
+      {
+        "sample_id": 43,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.1423163414001465,
+        "error": ""
+      },
+      {
+        "sample_id": 44,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Sports & Outdoors",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 3.681018829345703,
+        "error": ""
+      },
+      {
+        "sample_id": 45,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Fitness & Outdoor",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.343177080154419,
+        "error": ""
+      },
+      {
+        "sample_id": 46,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Sports Collectibles",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.514477729797363,
+        "error": ""
+      },
+      {
+        "sample_id": 47,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Accessories",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.377668380737305,
+        "error": ""
+      },
+      {
+        "sample_id": 48,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Apparel",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.856910705566406,
+        "error": ""
+      },
+      {
+        "sample_id": 49,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Outdoor & Sports",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.299557447433472,
+        "error": ""
+      },
+      {
+        "sample_id": 50,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Sports & Outdoors",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.96
+        },
+        "latency": 3.596752643585205,
+        "error": ""
+      },
+      {
+        "sample_id": 51,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.642458200454712,
+        "error": ""
+      },
+      {
+        "sample_id": 52,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.206710577011108,
+        "error": ""
+      },
+      {
+        "sample_id": 53,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.060424327850342,
+        "error": ""
+      },
+      {
+        "sample_id": 54,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.01905083656311,
+        "error": ""
+      },
+      {
+        "sample_id": 55,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.412898063659668,
+        "error": ""
+      },
+      {
+        "sample_id": 56,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.0229713916778564,
+        "error": ""
+      },
+      {
+        "sample_id": 57,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Religious & Spiritual",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 5.542367935180664,
+        "error": ""
+      },
+      {
+        "sample_id": 58,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment & Media",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.78
+        },
+        "latency": 4.719964027404785,
+        "error": ""
+      },
+      {
+        "sample_id": 59,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.177241325378418,
+        "error": ""
+      },
+      {
+        "sample_id": 60,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.297816038131714,
+        "error": ""
+      },
+      {
+        "sample_id": 61,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.099081516265869,
+        "error": ""
+      },
+      {
+        "sample_id": 62,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.96
+        },
+        "latency": 4.2913899421691895,
+        "error": ""
+      },
+      {
+        "sample_id": 63,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.051124811172485,
+        "error": ""
+      },
+      {
+        "sample_id": 64,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.96
+        },
+        "latency": 4.123475551605225,
+        "error": ""
+      },
+      {
+        "sample_id": 65,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.96
+        },
+        "latency": 3.6389784812927246,
+        "error": ""
+      },
+      {
+        "sample_id": 66,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Automotive Accessories",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.8699999999999999
+        },
+        "latency": 4.033811569213867,
+        "error": ""
+      },
+      {
+        "sample_id": 67,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Motorcycles",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.607873916625977,
+        "error": ""
+      },
+      {
+        "sample_id": 68,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 3.7253904342651367,
+        "error": ""
+      },
+      {
+        "sample_id": 69,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.96
+        },
+        "latency": 4.543214321136475,
+        "error": ""
+      },
+      {
+        "sample_id": 70,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.000628471374512,
+        "error": ""
+      },
+      {
+        "sample_id": 71,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.428924560546875,
+        "error": ""
+      },
+      {
+        "sample_id": 72,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.195404529571533,
+        "error": ""
+      },
+      {
+        "sample_id": 73,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Lighting",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.03691291809082,
+        "error": ""
+      },
+      {
+        "sample_id": 74,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 3.855459451675415,
+        "error": ""
+      },
+      {
+        "sample_id": 75,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.017112493515015,
+        "error": ""
+      },
+      {
+        "sample_id": 76,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.4201648235321045,
+        "error": ""
+      },
+      {
+        "sample_id": 77,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.347806215286255,
+        "error": ""
+      },
+      {
+        "sample_id": 78,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.78
+        },
+        "latency": 4.08991813659668,
+        "error": ""
+      },
+      {
+        "sample_id": 79,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Outdoor & Recreation",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.06151556968689,
+        "error": ""
+      },
+      {
+        "sample_id": 80,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Tools & Hardware",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.6526877880096436,
+        "error": ""
+      },
+      {
+        "sample_id": 81,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.183880805969238,
+        "error": ""
+      },
+      {
+        "sample_id": 82,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Supplies",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.847552061080933,
+        "error": ""
+      },
+      {
+        "sample_id": 83,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Supplies",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 3.5907654762268066,
+        "error": ""
+      },
+      {
+        "sample_id": 84,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Supplies",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.96
+        },
+        "latency": 4.281933546066284,
+        "error": ""
+      },
+      {
+        "sample_id": 85,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.875276803970337,
+        "error": ""
+      },
+      {
+        "sample_id": 86,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Supplies",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 3.751152992248535,
+        "error": ""
+      },
+      {
+        "sample_id": 87,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Beauty & Personal Care",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.145806550979614,
+        "error": ""
+      },
+      {
+        "sample_id": 88,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Toys & Games",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 0.8888888888888888,
+          "overall_score": 0.6777777777777778
+        },
+        "latency": 3.6587209701538086,
+        "error": ""
+      },
+      {
+        "sample_id": 89,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Accessories",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.548565149307251,
+        "error": ""
+      },
+      {
+        "sample_id": 90,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Food",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.368303060531616,
+        "error": ""
+      },
+      {
+        "sample_id": 91,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Health & Beauty",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.051026821136475,
+        "error": ""
+      },
+      {
+        "sample_id": 92,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Food & Beverage",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 3.7701127529144287,
+        "error": ""
+      },
+      {
+        "sample_id": 93,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Accessories",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 3.5173327922821045,
+        "error": ""
+      },
+      {
+        "sample_id": 94,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.78
+        },
+        "latency": 4.0864362716674805,
+        "error": ""
+      },
+      {
+        "sample_id": 95,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Health & Nutrition",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 3.9741909503936768,
+        "error": ""
+      },
+      {
+        "sample_id": 96,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Beverages",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.6502957344055176,
+        "error": ""
+      },
+      {
+        "sample_id": 97,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Accessories",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.671461820602417,
+        "error": ""
+      },
+      {
+        "sample_id": 98,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Personal Care",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 3.341313123703003,
+        "error": ""
+      },
+      {
+        "sample_id": 99,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Outdoor & Sports",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 3.827948808670044,
+        "error": ""
+      },
+      {
+        "sample_id": 100,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Fashion & Accessories",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.087272882461548,
+        "error": ""
+      },
+      {
+        "sample_id": 101,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Toys & Games",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.248472452163696,
+        "error": ""
+      },
+      {
+        "sample_id": 102,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.063943862915039,
+        "error": ""
+      },
+      {
+        "sample_id": 103,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Toys & Games",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 5.736294507980347,
+        "error": ""
+      },
+      {
+        "sample_id": 104,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Party Supplies",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.262604236602783,
+        "error": ""
+      },
+      {
+        "sample_id": 105,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Toys & Games",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.329179763793945,
+        "error": ""
+      },
+      {
+        "sample_id": 106,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Party Supplies",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.606770753860474,
+        "error": ""
+      },
+      {
+        "sample_id": 107,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Toys & Games",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.96
+        },
+        "latency": 4.72653865814209,
+        "error": ""
+      },
+      {
+        "sample_id": 108,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Party Supplies",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 0.8888888888888888,
+          "overall_score": 0.6777777777777778
+        },
+        "latency": 5.315351724624634,
+        "error": ""
+      },
+      {
+        "sample_id": 109,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Toys & Games",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.185471057891846,
+        "error": ""
+      },
+      {
+        "sample_id": 110,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.7355732917785645,
+        "error": ""
+      },
+      {
+        "sample_id": 111,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.276041030883789,
+        "error": ""
+      },
+      {
+        "sample_id": 112,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.399512767791748,
+        "error": ""
+      },
+      {
+        "sample_id": 113,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Toys & Games",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.502280235290527,
+        "error": ""
+      },
+      {
+        "sample_id": 114,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.587069034576416,
+        "error": ""
+      },
+      {
+        "sample_id": 115,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Stationery",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.9461560249328613,
+        "error": ""
+      },
+      {
+        "sample_id": 116,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Furniture",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 3.8974034786224365,
+        "error": ""
+      },
+      {
+        "sample_id": 117,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.8590006828308105,
+        "error": ""
+      },
+      {
+        "sample_id": 118,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.008944988250732,
+        "error": ""
+      },
+      {
+        "sample_id": 119,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.445413827896118,
+        "error": ""
+      },
+      {
+        "sample_id": 120,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Accessories",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 3.8290867805480957,
+        "error": ""
+      }
+    ]
+  },
+  "minicpm_llama3_v_2_5": {
+    "model_name": "MiniCPM-Llama3-V-2.5",
+    "summary": {
+      "total_samples": 120,
+      "successful_samples": 120,
+      "success_rate": 1.0,
+      "avg_category_accuracy": 0.30750000000000005,
+      "avg_attribute_completeness": 1.0,
+      "avg_selling_points_quality": 0.948,
+      "avg_format_validity": 0.999074074074074,
+      "avg_latency": 4.108770571152369,
+      "overall_score": 0.7790648148148148
+    },
+    "detailed_results": [
+      {
+        "sample_id": 1,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 6.886172294616699,
+        "error": ""
+      },
+      {
+        "sample_id": 2,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Fashion Accessories",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.294926166534424,
+        "error": ""
+      },
+      {
+        "sample_id": 3,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Stationery",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.3655219078063965,
+        "error": ""
+      },
+      {
+        "sample_id": 4,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.303735733032227,
+        "error": ""
+      },
+      {
+        "sample_id": 5,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.065708637237549,
+        "error": ""
+      },
+      {
+        "sample_id": 6,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Security",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.03839373588562,
+        "error": ""
+      },
+      {
+        "sample_id": 7,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.681267261505127,
+        "error": ""
+      },
+      {
+        "sample_id": 8,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.96
+        },
+        "latency": 3.5726611614227295,
+        "error": ""
+      },
+      {
+        "sample_id": 9,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 3.9395415782928467,
+        "error": ""
+      },
+      {
+        "sample_id": 10,
+        "success": true,
+        "ground_truth": "Electronics",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 3.8502604961395264,
+        "error": ""
+      },
+      {
+        "sample_id": 11,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 3.8132777214050293,
+        "error": ""
+      },
+      {
+        "sample_id": 12,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.92242693901062,
+        "error": ""
+      },
+      {
+        "sample_id": 13,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Clothing",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.275062322616577,
+        "error": ""
+      },
+      {
+        "sample_id": 14,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.550108432769775,
+        "error": ""
+      },
+      {
+        "sample_id": 15,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Film and Entertainment",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.02791953086853,
+        "error": ""
+      },
+      {
+        "sample_id": 16,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Beauty & Personal Care",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.3222620487213135,
+        "error": ""
+      },
+      {
+        "sample_id": 17,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.023508787155151,
+        "error": ""
+      },
+      {
+        "sample_id": 18,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Arts & Crafts",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.321107387542725,
+        "error": ""
+      },
+      {
+        "sample_id": 19,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Cookware",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.325732946395874,
+        "error": ""
+      },
+      {
+        "sample_id": 20,
+        "success": true,
+        "ground_truth": "Home_and_Kitchen",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 3.8010640144348145,
+        "error": ""
+      },
+      {
+        "sample_id": 21,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Education & Teaching",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.015260934829712,
+        "error": ""
+      },
+      {
+        "sample_id": 22,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Literature",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.7073888778686523,
+        "error": ""
+      },
+      {
+        "sample_id": 23,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Literature & Fiction",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.5967295169830322,
+        "error": ""
+      },
+      {
+        "sample_id": 24,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Literature",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.6913602352142334,
+        "error": ""
+      },
+      {
+        "sample_id": 25,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Children's Books",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 3.566561222076416,
+        "error": ""
+      },
+      {
+        "sample_id": 26,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Children's Literature",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.836860418319702,
+        "error": ""
+      },
+      {
+        "sample_id": 27,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Calendars",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.087623596191406,
+        "error": ""
+      },
+      {
+        "sample_id": 28,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Business & Money",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 3.3679206371307373,
+        "error": ""
+      },
+      {
+        "sample_id": 29,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Children's Literature",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.569195508956909,
+        "error": ""
+      },
+      {
+        "sample_id": 30,
+        "success": true,
+        "ground_truth": "Books",
+        "predicted": "Religion & Spirituality",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 3.5333919525146484,
+        "error": ""
+      },
+      {
+        "sample_id": 31,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Shoes",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 4.193738698959351,
+        "error": ""
+      },
+      {
+        "sample_id": 32,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Jewelry",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 3.919174909591675,
+        "error": ""
+      },
+      {
+        "sample_id": 33,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Clothing",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 4.611656427383423,
+        "error": ""
+      },
+      {
+        "sample_id": 34,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Clothing",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 4.1471171379089355,
+        "error": ""
+      },
+      {
+        "sample_id": 35,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Clothing",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.8699999999999999
+        },
+        "latency": 4.068060398101807,
+        "error": ""
+      },
+      {
+        "sample_id": 36,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Clothing",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.8699999999999999
+        },
+        "latency": 3.824601411819458,
+        "error": ""
+      },
+      {
+        "sample_id": 37,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Sports & Outdoors",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.78
+        },
+        "latency": 3.977492570877075,
+        "error": ""
+      },
+      {
+        "sample_id": 38,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Accessories",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.123605966567993,
+        "error": ""
+      },
+      {
+        "sample_id": 39,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Shoes",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 4.764233350753784,
+        "error": ""
+      },
+      {
+        "sample_id": 40,
+        "success": true,
+        "ground_truth": "Clothing_Shoes_and_Jewelry",
+        "predicted": "Clothing",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 4.226431369781494,
+        "error": ""
+      },
+      {
+        "sample_id": 41,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Sports Equipment",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.78
+        },
+        "latency": 4.137640476226807,
+        "error": ""
+      },
+      {
+        "sample_id": 42,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Equestrian Equipment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.145660638809204,
+        "error": ""
+      },
+      {
+        "sample_id": 43,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Sports Equipment",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 3.539043664932251,
+        "error": ""
+      },
+      {
+        "sample_id": 44,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Fishing Tackle",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 3.5500943660736084,
+        "error": ""
+      },
+      {
+        "sample_id": 45,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Fitness Equipment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.662060499191284,
+        "error": ""
+      },
+      {
+        "sample_id": 46,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Sports Collectibles",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.383528470993042,
+        "error": ""
+      },
+      {
+        "sample_id": 47,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Travel Accessories",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.215047359466553,
+        "error": ""
+      },
+      {
+        "sample_id": 48,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Clothing",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.924734592437744,
+        "error": ""
+      },
+      {
+        "sample_id": 49,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Outdoor Gear",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 3.9578800201416016,
+        "error": ""
+      },
+      {
+        "sample_id": 50,
+        "success": true,
+        "ground_truth": "Sports_and_Outdoors",
+        "predicted": "Sports Equipment",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 3.424862861633301,
+        "error": ""
+      },
+      {
+        "sample_id": 51,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Family Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 3.7328953742980957,
+        "error": ""
+      },
+      {
+        "sample_id": 52,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.891301155090332,
+        "error": ""
+      },
+      {
+        "sample_id": 53,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Movies",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 4.738722801208496,
+        "error": ""
+      },
+      {
+        "sample_id": 54,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Science Fiction & Fantasy",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.76854133605957,
+        "error": ""
+      },
+      {
+        "sample_id": 55,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.5227580070495605,
+        "error": ""
+      },
+      {
+        "sample_id": 56,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Biography & Memoir",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.78
+        },
+        "latency": 3.5959997177124023,
+        "error": ""
+      },
+      {
+        "sample_id": 57,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Religion & Spirituality",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 5.406505346298218,
+        "error": ""
+      },
+      {
+        "sample_id": 58,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Children's Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.6799999999999999,
+          "format_validity": 1.0,
+          "overall_score": 0.62
+        },
+        "latency": 4.2315614223480225,
+        "error": ""
+      },
+      {
+        "sample_id": 59,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.726490497589111,
+        "error": ""
+      },
+      {
+        "sample_id": 60,
+        "success": true,
+        "ground_truth": "Movies_and_TV",
+        "predicted": "Entertainment",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.9518187046051025,
+        "error": ""
+      },
+      {
+        "sample_id": 61,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.96
+        },
+        "latency": 3.705202341079712,
+        "error": ""
+      },
+      {
+        "sample_id": 62,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Engineering & Transportation",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.162950038909912,
+        "error": ""
+      },
+      {
+        "sample_id": 63,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Engineering & Tools",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.992732048034668,
+        "error": ""
+      },
+      {
+        "sample_id": 64,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Engineering & Transportation",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.040910243988037,
+        "error": ""
+      },
+      {
+        "sample_id": 65,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 3.674975633621216,
+        "error": ""
+      },
+      {
+        "sample_id": 66,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Engineering & Transportation",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.149897813796997,
+        "error": ""
+      },
+      {
+        "sample_id": 67,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Motorcycles",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.562159299850464,
+        "error": ""
+      },
+      {
+        "sample_id": 68,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 3.6891417503356934,
+        "error": ""
+      },
+      {
+        "sample_id": 69,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 4.512907981872559,
+        "error": ""
+      },
+      {
+        "sample_id": 70,
+        "success": true,
+        "ground_truth": "Automotive",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 3.7457070350646973,
+        "error": ""
+      },
+      {
+        "sample_id": 71,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 3.941349983215332,
+        "error": ""
+      },
+      {
+        "sample_id": 72,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Cooking & Baking",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.513712644577026,
+        "error": ""
+      },
+      {
+        "sample_id": 73,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Outdoor Lighting",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.068143844604492,
+        "error": ""
+      },
+      {
+        "sample_id": 74,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.5612707138061523,
+        "error": ""
+      },
+      {
+        "sample_id": 75,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Automotive",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.1525537967681885,
+        "error": ""
+      },
+      {
+        "sample_id": 76,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Sports & Outdoors",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.37066650390625,
+        "error": ""
+      },
+      {
+        "sample_id": 77,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.166794061660767,
+        "error": ""
+      },
+      {
+        "sample_id": 78,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.1646339893341064,
+        "error": ""
+      },
+      {
+        "sample_id": 79,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 3.8166558742523193,
+        "error": ""
+      },
+      {
+        "sample_id": 80,
+        "success": true,
+        "ground_truth": "Tools_and_Home_Improvement",
+        "predicted": "Tools",
+        "metrics": {
+          "category_accuracy": 0.7,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.9099999999999999
+        },
+        "latency": 4.417313575744629,
+        "error": ""
+      },
+      {
+        "sample_id": 81,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.378091335296631,
+        "error": ""
+      },
+      {
+        "sample_id": 82,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Toys",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.7846550941467285,
+        "error": ""
+      },
+      {
+        "sample_id": 83,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Accessories",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 3.5119214057922363,
+        "error": ""
+      },
+      {
+        "sample_id": 84,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Accessories",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.78
+        },
+        "latency": 4.145869970321655,
+        "error": ""
+      },
+      {
+        "sample_id": 85,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.3745152950286865,
+        "error": ""
+      },
+      {
+        "sample_id": 86,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Care",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.78
+        },
+        "latency": 3.712106227874756,
+        "error": ""
+      },
+      {
+        "sample_id": 87,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Hair Care",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.5457704067230225,
+        "error": ""
+      },
+      {
+        "sample_id": 88,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Toys & Games",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 0.8888888888888888,
+          "overall_score": 0.6377777777777778
+        },
+        "latency": 3.2215936183929443,
+        "error": ""
+      },
+      {
+        "sample_id": 89,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Accessories",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.25774073600769,
+        "error": ""
+      },
+      {
+        "sample_id": 90,
+        "success": true,
+        "ground_truth": "Pet_Supplies",
+        "predicted": "Pet Food",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.78
+        },
+        "latency": 3.7982561588287354,
+        "error": ""
+      },
+      {
+        "sample_id": 91,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Health & Beauty",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 3.7646796703338623,
+        "error": ""
+      },
+      {
+        "sample_id": 92,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Snacks",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.217741012573242,
+        "error": ""
+      },
+      {
+        "sample_id": 93,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Eyewear",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.8126449584960938,
+        "error": ""
+      },
+      {
+        "sample_id": 94,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Home & Kitchen",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.111628293991089,
+        "error": ""
+      },
+      {
+        "sample_id": 95,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Snacks",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.6799999999999999,
+          "format_validity": 1.0,
+          "overall_score": 0.62
+        },
+        "latency": 3.4701247215270996,
+        "error": ""
+      },
+      {
+        "sample_id": 96,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Beverages",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.3609156608581543,
+        "error": ""
+      },
+      {
+        "sample_id": 97,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Accessories",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.637492656707764,
+        "error": ""
+      },
+      {
+        "sample_id": 98,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Beauty & Personal Care",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 3.385300874710083,
+        "error": ""
+      },
+      {
+        "sample_id": 99,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Pet Accessories",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.8015170097351074,
+        "error": ""
+      },
+      {
+        "sample_id": 100,
+        "success": true,
+        "ground_truth": "Health_and_Personal_Care",
+        "predicted": "Health & Beauty",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.78
+        },
+        "latency": 3.7090201377868652,
+        "error": ""
+      },
+      {
+        "sample_id": 101,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Children's Toys",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.78
+        },
+        "latency": 3.731538772583008,
+        "error": ""
+      },
+      {
+        "sample_id": 102,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Engineering & Tools",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.78
+        },
+        "latency": 3.723043203353882,
+        "error": ""
+      },
+      {
+        "sample_id": 103,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Puzzles",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 5.3175599575042725,
+        "error": ""
+      },
+      {
+        "sample_id": 104,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Party Supplies",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 5.171358823776245,
+        "error": ""
+      },
+      {
+        "sample_id": 105,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Children's Toys",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.78
+        },
+        "latency": 3.9849212169647217,
+        "error": ""
+      },
+      {
+        "sample_id": 106,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Party Supplies",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.237383604049683,
+        "error": ""
+      },
+      {
+        "sample_id": 107,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Collectibles",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.6215832233428955,
+        "error": ""
+      },
+      {
+        "sample_id": 108,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Party Supplies",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.868258953094482,
+        "error": ""
+      },
+      {
+        "sample_id": 109,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Toys & Games",
+        "metrics": {
+          "category_accuracy": 1.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 1.0
+        },
+        "latency": 3.9196724891662598,
+        "error": ""
+      },
+      {
+        "sample_id": 110,
+        "success": true,
+        "ground_truth": "Toys_and_Games",
+        "predicted": "Crafts, Hobbies & DIY",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.456640720367432,
+        "error": ""
+      },
+      {
+        "sample_id": 111,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Crafts, Hobbies & Home",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.116194248199463,
+        "error": ""
+      },
+      {
+        "sample_id": 112,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Office Supplies",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 4.066407680511475,
+        "error": ""
+      },
+      {
+        "sample_id": 113,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Crafts, Hobbies & DIY",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 4.273945569992065,
+        "error": ""
+      },
+      {
+        "sample_id": 114,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Electronics",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 0.8400000000000001,
+          "format_validity": 1.0,
+          "overall_score": 0.66
+        },
+        "latency": 3.1752028465270996,
+        "error": ""
+      },
+      {
+        "sample_id": 115,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Stationery",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.5379180908203125,
+        "error": ""
+      },
+      {
+        "sample_id": 116,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Office Furniture",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 3.9528496265411377,
+        "error": ""
+      },
+      {
+        "sample_id": 117,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Office Equipment",
+        "metrics": {
+          "category_accuracy": 0.4,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.8200000000000001
+        },
+        "latency": 3.7694201469421387,
+        "error": ""
+      },
+      {
+        "sample_id": 118,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Arts & Photography",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.045312404632568,
+        "error": ""
+      },
+      {
+        "sample_id": 119,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Self-Help & Personal Development",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 4.163633108139038,
+        "error": ""
+      },
+      {
+        "sample_id": 120,
+        "success": true,
+        "ground_truth": "Office_Products",
+        "predicted": "Crafts, Hobbies & Tools",
+        "metrics": {
+          "category_accuracy": 0.0,
+          "attribute_completeness": 1.0,
+          "selling_points_quality": 1.0,
+          "format_validity": 1.0,
+          "overall_score": 0.7
+        },
+        "latency": 3.7921478748321533,
+        "error": ""
+      }
+    ]
+  }
+}
